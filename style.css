@@ -8,19 +8,26 @@ h1 {color: white;
 }
 
 td {background-color;
-text-align: center;
+text-align: left;
 padding-left: 10px;
 font-family: sans-serif;
 color: black;
 font-weight: bolder;
+margin-bottom: 50px;
+border-radius: 10px;
+border-color: black;
 }
 th {background-color:#800000;
-text-align: right;
+text-align: center;
 font-family: cursive;
 color :white;
 font-style: italic;
-font-weight: bolder;}
+font-weight: bolder;
+margin-bottom: 50px;
+margin: auto;}
+
 tr {background-color:white ;
+  margin-bottom: 50px;
 }
 table{ margin: auto;
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
@@ -30,6 +37,7 @@ table{ margin: auto;
      text-align: left;
      border-collapse: collapse
      background-color: none;
+
   }
 
 
@@ -48,7 +56,8 @@ font-family: monospace;}
 
   h2 {font-size: cursive;
 margin: auto;
-background-color: none;
+background-color: #800000;
+border-radius: 10px;
 text-align: center;
 color: white;
 max-width: 200px;
